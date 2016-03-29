@@ -1,0 +1,23 @@
+rootUrl: https://alexpts.ru
+tolerance: 3.5
+sessionsPerBrowser: 2
+screenshotsDir: './screens'
+suitesPerSession: 20
+
+system:
+  parallelLimit: 2
+  plugins:
+    browserstack:
+      username: false
+      accessKey: false
+
+browsers:
+  chrome:
+    desiredCapabilities:
+      browserName: chrome
+      acceptSslCerts: true
+
+sets:
+  alexpts.ru:
+    files:
+      - ./test/
