@@ -17,8 +17,10 @@
   "author": "Alexpts",
   "license": "MIT",
   "dependencies": {
-    "gemini": "^3.0.1",
-    "gemini-gui": "^3.0.0",
-    "selenium-standalone": "^5.1.0"
+    "gemini": "^3.0.1"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^5.1.0",
+    "gemini-gui": "^3.0.0"
   }
 }
