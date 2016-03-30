@@ -14,8 +14,13 @@ system:
 browsers:
   chrome:
     desiredCapabilities:
-      browserName: chrome
       acceptSslCerts: true
+      browserName: chrome
+      platform: WIN8
+      os: WINDOWS
+      os_version: 8.1
+      project: alexpts.ru_css
+      resolution: 1680x1050
 
 sets:
   alexpts.ru:
