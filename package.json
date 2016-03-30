@@ -17,7 +17,8 @@
   "author": "Alexpts",
   "license": "MIT",
   "dependencies": {
-    "gemini": "^3.0.1"
+    "gemini": "^3.0.1",
+    "gemini-browserstack": "^1.0.0"
   },
   "devDependencies": {
     "selenium-standalone": "^5.1.0",
