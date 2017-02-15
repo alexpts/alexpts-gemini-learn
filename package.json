@@ -17,11 +17,11 @@
   "author": "Alexpts",
   "license": "MIT",
   "dependencies": {
-    "gemini": "^3.0.2",
+    "gemini": "^4.18.1",
     "gemini-browserstack": "^1.0.0"
   },
   "devDependencies": {
-    "selenium-standalone": "^5.1.0",
-    "gemini-gui": "^3.0.0"
+    "selenium-standalone": "^6.0.1",
+    "gemini-gui": "^4.6.0"
   }
 }

@@ -2,12 +2,16 @@ rootUrl: https://alexpts.ru
 tolerance: 3.5
 screenshotsDir: './screens'
 
-system:
-  parallelLimit: 2
-  plugins:
-    browserstack:
-      username: false
-      accessKey: false
+httpTimeout: 5000
+sessionRequestTimeout: 10000
+sessionQuitTimeout: 5000
+
+#system:
+#  parallelLimit: 2
+#  plugins:
+#    browserstack:
+#      username: xxx
+#      accessKey: xxx
 
 browsers:
   chrome:
@@ -19,30 +23,9 @@ browsers:
       os_version: 8.1
       project: alexpts.ru_css
       resolution: 1280x800
-
-  ie10:
-    desiredCapabilities:
-      acceptSslCerts: true
-      browserName: IE
-      browser: IE
-      browser_version: 10
-      platform: WIN8
-      os: WINDOWS
-      os_version: 8
-      project: alexpts.ru_css
-      resolution: 1280x800
-
-  ie11:
-    desiredCapabilities:
-      acceptSslCerts: true
-      browserName: IE
-      browser: IE
-      browser_version: 11
-      platform: WIN8
-      os: WINDOWS
-      os_version: 8.1
-      project: alexpts.ru_css
-      resolution: 1280x800
+      chromeOptions:
+        args:
+          - '--start-fullscreen'
 
 sets:
   alexpts.ru:
